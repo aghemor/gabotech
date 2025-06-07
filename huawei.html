@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GABOTECH - Huawei</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        header {
+            background-color: #0a4996;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .menu-principal {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+        }
+        .menu-principal button {
+            background-color: #0a4996;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #0a4996;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .menu-principal button:hover {
+            background-color: #0770c9;
+            color: white;
+        }
+        .seccion {
+            padding: 20px;
+        }
+        .seccion h2 {
+            text-align: center;
+            color: darkred;
+        }
+        .tabla-dispositivo {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabla-dispositivo th, .tabla-dispositivo td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .tabla-dispositivo th {
+            background-color: #0a4996;
+            color: white;
+        }
+        .tabla-dispositivo img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GABOTECH - El Futuro de la Tecnología Móvil</h1>
+    <hr>
+    <div class="menu-principal">
+        <button onclick="location.href='index.html'">INICIO</button>
+        <button onclick="location.href='noticias.html'">NOTICIAS</button>
+        <button onclick="location.href='ofertas.html'">OFERTAS</button>
+        <button onclick="location.href='acerca.html'">ACERCA DE</button>
+    </div>
+
+    <div class="seccion">
+        <h2>Noticias Recientes sobre Huawei</h2>
+        <p>Huawei ha sorprendido con el lanzamiento de la serie Mate 60 con conectividad 5G y procesadores propios Kirin. También continúa fortaleciendo su ecosistema con HarmonyOS y nuevos dispositivos inteligentes.</p>
+
+        <h2>Modelos Destacados</h2>
+        <table class="tabla-dispositivo">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Imagen</th>
+                    <th>Características</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Huawei Mate 60 Pro</td>
+                    <td><img src="mate60pro.png" alt="Huawei Mate 60 Pro"></td>
+                    <td>
+                        - Pantalla OLED de 6.82"<br>
+                        - Procesador Kirin 9000S<br>
+                        - Cámara triple de 50 MP<br>
+                        - Resistencia IP68
+                    </td>
+                </tr>
+                <tr>
+                    <td>Huawei P60 Pro</td>
+                    <td><img src="p60pro.png" alt="Huawei P60 Pro"></td>
+                    <td>
+                        - Pantalla OLED de 6.67"<br>
+                        - Procesador Snapdragon 8+ Gen 1<br>
+                        - Cámara XMAGE Ultra Lighting<br>
+                        - Carga rápida de 88W
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>🌍 Dispositivos Huawei por Serie</h3>
+
+<ul>
+    <li><strong>Serie Mate</strong>
+        <ul>
+            <li>Huawei Mate 60 Pro</li>
+            <li>Huawei Mate 60</li>
+            <li>Huawei Mate 50 Pro</li>
+            <li>Huawei Mate X5 (plegable)</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie P</strong>
+        <ul>
+            <li>Huawei P60 Pro</li>
+            <li>Huawei P60</li>
+            <li>Huawei P50 Pro</li>
+            <li>Huawei P50 Pocket (plegable)</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie Nova</strong>
+        <ul>
+            <li>Huawei Nova 12 Pro</li>
+            <li>Huawei Nova 12</li>
+            <li>Huawei Nova 11i</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie Y</strong>
+        <ul>
+            <li>Huawei Y9a</li>
+            <li>Huawei Y7a</li>
+            <li>Huawei Y6p</li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>

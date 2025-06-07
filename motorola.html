@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GABOTECH - Motorola</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        header {
+            background-color: #0a4996;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .menu-principal {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+        }
+        .menu-principal button {
+            background-color: #0a4996;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #0a4996;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .menu-principal button:hover {
+            background-color: #0770c9;
+            color: white;
+        }
+        .seccion {
+            padding: 20px;
+        }
+        .seccion h2 {
+            text-align: center;
+            color: darkred;
+        }
+        .tabla-dispositivo {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabla-dispositivo th, .tabla-dispositivo td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .tabla-dispositivo th {
+            background-color: #0a4996;
+            color: white;
+        }
+        .tabla-dispositivo img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GABOTECH - El Futuro de la Tecnología Móvil</h1>
+    <hr>
+    <div class="menu-principal">
+        <button onclick="location.href='index.html'">INICIO</button>
+        <button onclick="location.href='noticias.html'">NOTICIAS</button>
+        <button onclick="location.href='ofertas.html'">OFERTAS</button>
+        <button onclick="location.href='acerca.html'">ACERCA DE</button>
+    </div>
+
+    <div class="seccion">
+        <h2>Noticias Recientes sobre Motorola</h2>
+        <p>Presentación del Razr 50 y el Razr 50 Ultra, que cuentan con la mayor pantalla externa de los móviles plegables.</p>
+
+        <h2>Modelos Destacados</h2>
+        <table class="tabla-dispositivo">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Imagen</th>
+                    <th>Características</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Motorola RAZR 50</td>
+                    <td><img src="razr50.png" alt="Motorola RAZR 50"></td>
+                    <td>
+                        - Pantalla pOLED de 6.9"<br>
+                        - Procesador Dimensity 7300<br>
+                        - Cámara triple de 50 MP<br>
+                        - Resistencia IP68
+                    </td>
+                </tr>
+                <tr>
+                    <td>Motorola RAZR 50 Ultra</td>
+                    <td><img src="razr50ultra.png" alt="Motorola RAZR 50 Ultra"></td>
+                    <td>
+                        - Pantalla pOLED de 6.9"<br>
+                        - Procesador Snapdragon 8s Gen 3<br>
+                        - Cámara 50 Mpx<br>
+                        - Carga rápida de 45W
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>📱 Dispositivos Motorola por Serie</h3>
+
+<ul>
+    <li><strong>Serie Edge</strong>
+        <ul>
+            <li>Motorola Edge 50 Ultra</li>
+            <li>Motorola Edge 50 Pro</li>
+            <li>Motorola Edge 40 Neo</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie Razr (plegables)</strong>
+        <ul>
+            <li>Motorola Razr 50 Ultra</li>
+            <li>Motorola Razr 40</li>
+            <li>Motorola Razr 40 Ultra</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie Moto G</strong>
+        <ul>
+            <li>Moto G Power (2024)</li>
+            <li>Moto G Stylus 5G (2023)</li>
+            <li>Moto G84 5G</li>
+            <li>Moto G73 5G</li>
+        </ul>
+    </li>
+
+    <li><strong>Serie Moto E</strong>
+        <ul>
+            <li>Moto E13</li>
+            <li>Moto E22</li>
+            <li>Moto E32</li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>

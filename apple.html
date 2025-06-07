@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GABOTECH - Apple</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        header {
+            background-color: #0a4996;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .menu-principal {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+        }
+        .menu-principal button {
+            background-color: #0a4996;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #0a4996;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .menu-principal button:hover {
+            background-color: #0770c9;
+            color: white;
+        }
+        .seccion {
+            padding: 20px;
+        }
+        .seccion h2 {
+            text-align: center;
+            color: darkred;
+        }
+        .tabla-dispositivo {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabla-dispositivo th, .tabla-dispositivo td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .tabla-dispositivo th {
+            background-color: #0a4996;
+            color: white;
+        }
+        .tabla-dispositivo img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GABOTECH - El Futuro de la Tecnología Móvil</h1>
+    <hr>
+    <div class="menu-principal">
+        <button onclick="location.href='index.html'">INICIO</button>
+        <button onclick="location.href='noticias.html'">NOTICIAS</button>
+        <button onclick="location.href='ofertas.html'">OFERTAS</button>
+        <button onclick="location.href='acerca.html'">ACERCA DE</button>
+    </div>
+
+    <div class="seccion">
+        <h2>Noticias Recientes sobre Apple</h2>
+        <p>Apple ha presentado el nuevo iPhone 15 Pro con mejoras en el procesador, materiales de titanio y cámaras más potentes. También se esperan innovaciones en la próxima generación del iPad y MacBook.</p>
+
+        <h2>Modelos Destacados</h2>
+        <table class="tabla-dispositivo">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Imagen</th>
+                    <th>Características</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPhone 15 Pro Max</td>
+                    <td><img src="iphone15promax.png" alt="iPhone 15 Pro Max"></td>
+                    <td>
+                        - Pantalla de 6.7" OLED<br>
+                        - Chip A17 Pro<br>
+                        - Material de titanio<br>
+                        - Sistema de cámaras mejorado
+                    </td>
+                </tr>
+                <tr>
+                    <td>iPhone SE 2022</td>
+                    <td><img src="iphonese2022.png" alt="iPhone SE 2022"></td>
+                    <td>
+                        - Pantalla de 4.7" Retina<br>
+                        - Chip A15 Bionic<br>
+                        - Botón Touch ID<br>
+                        - Precio accesible
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<h3>🍏 Dispositivos Apple por Generación</h3>
+
+<ul>
+    <li><strong>iPhone 15 Series</strong>
+        <ul>
+            <li><a href="ip15.html">iPhone 15</a></li>
+            <li><a href="ip15plus.html">iPhone 15 Plus</a></li>
+            <li><a href="ip15pro.html">iPhone 15 Pro</a></li>
+            <li><a href="ip15promax.html">iPhone 15 Pro Max</a></li>
+        </ul>
+    </li>
+
+    <li><strong>iPhone 14 Series</strong>
+        <ul>
+            <li><a href="ip14.html">iPhone 14</a></li>
+            <li><a href="ip14plus.html">iPhone 14 Plus</a></li>
+            <li><a href="ip14pro.html">iPhone 14 Pro</a></li>
+            <li><a href="ip14promax.html">iPhone 14 Pro Max</a></li>
+        </ul>
+    </li>
+
+    <li><strong>iPhone SE</strong>
+        <ul>
+            <li><a href="ipse2022.html">iPhone SE (2022)</a></li>
+            <li><a href="ipse2020.html">iPhone SE (2020)</a></li>
+        </ul>
+    </li>
+
+    <li><strong>Generaciones anteriores</strong>
+        <ul>
+            <li><a href="ip13.html">iPhone 13</a> / <a href="ip13mini.html">13 mini</a> / <a href="ip13pro.html">13 Pro</a> / <a href="ip13promax.html">13 Pro Max</a></li>
+            <li><a href="ip12.html">iPhone 12</a> / <a href="ip12mini.html">12 mini</a> / <a href="ip12pro.html">12 Pro</a> / <a href="ip12promax.html">12 Pro Max</a></li>
+            <li><a href="ip11.html">iPhone 11</a> / <a href="ip11pro.html">11 Pro</a> / <a href="ip11promax.html">11 Pro Max</a></li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>

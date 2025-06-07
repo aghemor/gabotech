@@ -1,0 +1,44 @@
+body {
+    background-color: #e0f7ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0a4996;
+    border: 3px solid red;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+h2 {
+    color: red;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color: #0a9682;
+    border: 2px solid #0a4996;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+}
+
+marquee h3 {
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

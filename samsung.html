@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GABOTECH - Samsung</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        header {
+            background-color: #0a4996;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .menu-principal {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+        .menu-principal button {
+            background-color: #0a4996;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #0a4996;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .menu-principal button:hover {
+            background-color: #0770c9;
+            color: white;
+        }
+        .seccion {
+            padding: 20px;
+        }
+        .seccion h2 {
+            text-align: center;
+            color: darkred;
+        }
+        .tabla-dispositivo {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .tabla-dispositivo th, .tabla-dispositivo td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .tabla-dispositivo th {
+            background-color: #0a4996;
+            color: white;
+        }
+        .tabla-dispositivo img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h1>GABOTECH - El Futuro de la Tecnología Móvil</h1>
+<hr>
+    <div class="menu-principal" style="text-align: center;">
+        <button onclick="location.href='index.html'">INICIO</button>
+        <button onclick="location.href='noticias.html'">NOTICIAS</button>
+        <button onclick="location.href='ofertas.html'">OFERTAS</button>
+        <button onclick="location.href='acerca.html'">ACERCA DE</button>
+    </div>
+
+   <div class="seccion">
+        <h2>Noticias Recientes sobre Samsung</h2>
+        <p>Samsung ha lanzado recientemente su nueva línea Galaxy S24, con mejoras en cámara, batería y rendimiento. Además, se espera el próximo Galaxy Z Fold6 con avances en la tecnología de pantallas plegables.</p>
+
+        <h2>Modelos Destacados</h2>
+        <table class="tabla-dispositivo">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Imagen</th>
+                    <th>Características</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samsung Galaxy S24 Ultra</td>
+                    <td><img src="s24ultra.png" alt="Galaxy S24 Ultra" width="250px" height="125px"></td>
+                    <td>
+                        - Pantalla de 6.8" AMOLED<br>
+                        - Cámara de 200 MP<br>
+                        - Snapdragon 8 Gen 3<br>
+                        - Batería de 5000 mAh
+                    </td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy Z Fold5</td>
+                    <td><img src="zfold5.avif" alt="Galaxy Z Fold5" width="250px" height="125px"></td>
+                    <td>
+                        - Pantalla plegable de 7.6" AMOLED<br>
+                        - Procesador Snapdragon 8 Gen 2<br>
+                        - Multitarea mejorada<br>
+                        - Batería de 4400 mAh
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h3>📱 Dispositivos Samsung por Gama</h3>
+
+<ul>
+    <li><strong>Gama S</strong>
+        <ul>
+            <li><a href="smgs24u.html">Samsung Galaxy S24 Ultra</a></li>
+            <li><a href="smgs24+.html">Samsung Galaxy S24+</a></li>
+            <li><a href="smgs24.html">Samsung Galaxy S24</a></li>
+            <li><a href="smgs23fe.html">Samsung Galaxy S23 FE</a></li>
+        </ul>
+    </li>
+
+    <li><strong>Gama Z (plegables)</strong>
+        <ul>
+            <li><a href="smgzfold5.html">Samsung Galaxy Z Fold5</a></li>
+            <li><a href="smgzflip6.html">Samsung Galaxy Z Flip6</a></li>
+        </ul>
+    </li>
+
+    <li><strong>Gama A (media-alta)</strong>
+        <ul>
+            <li><a href="smga56.html">Samsung Galaxy A56 5G</a></li>
+            <li><a href="smga55.html">Samsung Galaxy A55 5G</a></li>
+            <li><a href="smga54.html">Samsung Galaxy A54 5G</a></li>
+            <li><a href="smga36.html">Samsung Galaxy A36 5G</a></li>
+            <li><a href="smga35.html">Samsung Galaxy A35 5G</a></li>
+            <li><a href="smga34.html">Samsung Galaxy A34 5G</a></li>
+        </ul>
+    </li>
+
+    <li><strong>Gama M (media)</strong>
+        <ul>
+            <li><a href="smgm54.html">Samsung Galaxy M54</a></li>
+            <li><a href="smgm14.html">Samsung Galaxy M14</a></li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
